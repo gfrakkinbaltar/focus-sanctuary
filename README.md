@@ -2,7 +2,7 @@
 
 > An immersive focus timer with breathtaking 3D environments and generative soundscapes
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://focus-sanctuary-hyr9laq9a-rahbii-2903s-projects.vercel.app)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://focus-sanctuary.vercel.app)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18-61dafb)](https://react.dev/)
 [![Three.js](https://img.shields.io/badge/Three.js-r168-black)](https://threejs.org/)
