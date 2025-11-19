@@ -1,0 +1,57 @@
+{
+  "name": "focus-sanctuary-stack",
+  "description": "Complete technical documentation for Focus Sanctuary's tech stack: React Three Fiber for 3D environments, Tone.js for generative audio, Zustand for state management, and Vite for building. Essential for developing immersive focus timer experiences.",
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "react-three-fiber",
+      "url": "https://docs.pmnd.rs/react-three-fiber",
+      "selectors": {
+        "container": "article, main, .docs-content",
+        "title": "h1, h2, h3",
+        "content": "p, pre, code, ul, ol"
+      },
+      "max_pages": 200,
+      "rate_limit": 0.5
+    },
+    {
+      "id": "tonejs",
+      "url": "https://tonejs.github.io/docs",
+      "selectors": {
+        "container": "article, .documentation",
+        "title": "h1, h2, h3",
+        "content": "p, pre, code, ul, ol"
+      },
+      "max_pages": 150,
+      "rate_limit": 0.5
+    },
+    {
+      "id": "zustand",
+      "url": "https://docs.pmnd.rs/zustand",
+      "selectors": {
+        "container": "article, main",
+        "title": "h1, h2, h3",
+        "content": "p, pre, code, ul, ol"
+      },
+      "max_pages": 50,
+      "rate_limit": 0.5
+    },
+    {
+      "id": "drei",
+      "url": "https://github.com/pmndrs/drei",
+      "selectors": {
+        "container": "article, .markdown-body",
+        "title": "h1, h2, h3",
+        "content": "p, pre, code, ul, ol"
+      },
+      "max_pages": 100,
+      "rate_limit": 0.5
+    }
+  ],
+  "merge_strategy": {
+    "mode": "claude-enhanced",
+    "combine_by": "library",
+    "preserve_structure": true,
+    "include_examples": true
+  }
+}

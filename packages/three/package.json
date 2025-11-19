@@ -1,0 +1,19 @@
+{
+  "name": "@focus-sanctuary/three",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@react-three/drei": "^9.92.0",
+    "@react-three/fiber": "^8.15.0",
+    "react": "^18.2.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.26",
+    "@types/three": "^0.160.0",
+    "typescript": "^5.3.3"
+  }
+}
